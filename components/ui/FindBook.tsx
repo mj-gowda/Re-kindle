@@ -4,7 +4,7 @@ import axios from 'axios';
 import Spinner from '@/components/ui/Spinner';
 
 
-const FindBook = ({id} : String) => {
+const FindBook = ({id}) => {
 const [book, setBook] = useState({});
 const [loading, setLoading] = useState(false);
 

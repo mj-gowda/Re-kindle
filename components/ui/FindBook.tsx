@@ -5,7 +5,13 @@ import Spinner from '@/components/ui/Spinner';
 
 
 const FindBook = ({id}) => {
-const [book, setBook] = useState({});
+const [book, setBook] = useState({title:'',
+author:'',
+publishYear:'',
+image:'',
+createdAt:'',
+updatedAt:'',
+_id:''});
 const [loading, setLoading] = useState(false);
 
 useEffect(() => {

@@ -7,7 +7,13 @@ import Spinner from '@/components/ui/Spinner';
 
 
 const ShowBook = () => {
-  const [book, setBook] = useState({});
+  const [book, setBook] = useState({title:'',
+  author:'',
+  publishYear:'',
+  image:'',
+  createdAt:'',
+  updatedAt:'',
+  _id:''});
   const [loading, setLoading] = useState(false);
   const { id } = useParams();
   console.log("hello");
